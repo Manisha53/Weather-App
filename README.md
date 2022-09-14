@@ -1,1 +1,1 @@
-A Weather-App to get the realtime temperature, Humididty, windspeed etc. of a particular city.
+A Weather-App to get the realtime temperature, Humidity, wind-speed etc. of a particular city.
