@@ -1,13 +1,15 @@
 A Weather-App to get the real-time temperature, Humidity, wind speed, etc. of a particular city using HTML, CSS, and JavaScript.
 
-Deploying this Application on AWS EC2
+`#` Deploying this Application on AWS EC2
 Testing the project locally
-Clone this project
+
+`##`Clone this project
 git clone https://github.com/Manisha53/Weather-App.git
 
-Start the project - VSCode Run
+`##`Start the project
+VSCode Run
 
-Set up an AWS EC2 instance
+`##`Set up an AWS EC2 instance
 Create an IAM user & log to your AWS Console
 Access Type - Password
 Permissions - Admin
@@ -17,23 +19,25 @@ Create a new key pair & download the .pem file
 Instance type - t2.micro
 Connecting to the instance using ssh - putty
 Configuring Ubuntu on a remote VM
-Updating the outdated packages and dependencies
+
+`##`Updating the outdated packages and dependencies
 sudo apt update
 Install Git - Guide by DigitalOcean
 
-Deploying the project on AWS
+`##`Deploying the project on AWS
 Clone this project in the remote VM
 git clone https://github.com/Manisha53/Weather-App.git
-Deploying the project on AWS
+
+`##`Deploying the project on AWS
 sudo apt install apache2
 cp -r Weather-App/* /var/www/html/
 systemctl start apache2
 Launch the web server on the public IPv4 address of EC2
 
 
-NOTE - We will have to edit the inbound rules in the security group of our EC2, to allow traffic from our particular port
+`####`NOTE - We will have to edit the inbound rules in the security group of our EC2, to allow traffic from our particular port
 
-The project is deployed on AWS 🎉
+`#####`The project is deployed on AWS 🎉
 
 
 
