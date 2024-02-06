@@ -21,18 +21,18 @@
 * Configuring Ubuntu on a remote VM
 
 ## Updating the outdated packages and dependencies
-sudo apt update
-Install Git - Guide by DigitalOcean
+* sudo apt update
+* Install Git - Guide by DigitalOcean
 
 ## Deploying the project on AWS
-Clone this project in the remote VM
-git clone https://github.com/Manisha53/Weather-App.git
+* Clone this project in the remote VM
+* git clone https://github.com/Manisha53/Weather-App.git
 
 ## Deploying the project on AWS
-sudo apt install apache2
-cp -r Weather-App/* /var/www/html/
-systemctl start apache2
-Launch the web server on the public IPv4 address of EC2
+* sudo apt install apache2
+* cp -r Weather-App/* /var/www/html/
+* systemctl start apache2
+* Launch the web server on the public IPv4 address of EC2
 
 
 #### NOTE - We will have to edit the inbound rules in the security group of our EC2, to allow traffic from our particular port
