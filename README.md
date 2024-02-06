@@ -1,24 +1,24 @@
-A Weather-App to get the real-time temperature, Humidity, wind speed, etc. of a particular city using HTML, CSS, and JavaScript.
+#### A Weather-App to get the real-time temperature, Humidity, wind speed, etc. of a particular city using HTML, CSS, and JavaScript.
 
 # Deploying this Application on AWS EC2 #
-Testing the project locally
+* Testing the project locally
 
 ## Clone this project
-git clone https://github.com/Manisha53/Weather-App.git
+* git clone https://github.com/Manisha53/Weather-App.git
 
 ## Start the project
-VSCode Run
+* VSCode Run
 
 ## Set up an AWS EC2 instance
-Create an IAM user & log to your AWS Console
-Access Type - Password
-Permissions - Admin
-Create an EC2 instance
-Select an OS image - Ubuntu
-Create a new key pair & download the .pem file
-Instance type - t2.micro
-Connecting to the instance using ssh - putty
-Configuring Ubuntu on a remote VM
+* Create an IAM user & log to your AWS Console
+* Access Type - Password
+* Permissions - Admin
+* Create an EC2 instance
+* Select an OS image - Ubuntu
+* Create a new key pair & download the .pem file
+* Instance type - t2.micro
+* Connecting to the instance using ssh - putty
+* Configuring Ubuntu on a remote VM
 
 ## Updating the outdated packages and dependencies
 sudo apt update
